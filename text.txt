@@ -1,0 +1,52 @@
+>>  npm init
+ได้ json
+
+>>  npm install express
+ได้ก้อนออกมา
+
+สร้าง index.js
+>>  node index.js
+เพื่อเปิดเว็บ
+เข้า Web Localhost:1000
+
+>>  npm install nodemon
+เพื่อเวลาแก้ code ไม่ต้องปิดเปิด server
+
+แก้ใน package.json
+เพิ่ม "start": "nodemon index.js" ที่ scripts
+
+การ post แบบ json เป็นการเก็บข้อมูลไว้ชั่วคราว
+
+npm i mongoose
+เพื่อติดตั้ง mongoose
+
+
+
+==========
+
+
+เราจะย่อยไฟล์ไม่ให้หนักไป 1 ไฟล์
+controllers จัดการ req, res
+servies จัดการ การทำต่อไปหา DB
+
+ถ้าเป็น Object จะเป็น { } แล้ว Return ก็เป็น Object
+
+ถ้า Return Object แล้ว Value กับ name เหมือนกันให้ return name อย่างเดียว
+
+Time เราจะเก็บ String แล้วแปลงเอา
+
+school (database)
+- students
+- teacher
+
+async ทำงานจะกระโดดไป กระโดดมา
+    keyword: await รอบรรทัดนี้ก่อนทำแทรก
+เห็นผลเมื่อมีการทำงานหลายอัน
+const result = Promise.all([task1, task2, task3]);
+ทำต่อเรื่อยๆ แต่ถ้า task2 ใช้ task1 ต่อก้แตก await ดีกว่า แต่ช้า
+
+CRUD
+create
+read
+update
+delete
