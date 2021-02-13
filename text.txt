@@ -50,3 +50,7 @@ create
 read
 update
 delete
+
+
+npm i cors
+เพื่อใช้งานข้าม port
